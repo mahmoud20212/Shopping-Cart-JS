@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-rtl.css">
+    <!-- Title -->
+    <title>Shopping Cart | My Products</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="brand">Shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li>
+                            <a href="./login.html">Sign In</a>
+                        </li>
+                        <li>
+                            <a href="./register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                    <ul id="user-info">
+                        <li>
+                            <a href="./profile.html" id="user"></a>
+                        </li>
+                        <li id="shop-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <span class="badge"></span>
+                            <div class="carts-products">
+                                <ul></ul>
+                                <a href="./cart.html">View All Products</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a style="min-width: auto;" href="./favorite.html">
+                                <i class="fa-regular fa-heart fa-lg favorite"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="min-width: auto;" href="./userproducts.html">
+                                <i class="fa-solid fa-list fa-lg"></i>
+                            </a>
+                        </li>
+                        <li class="settings">
+                            <i class="fa-solid fa-gear"></i>
+                            <ul>
+                                <li>
+                                    <a href="./profile.html">
+                                        <i class="fa-regular fa-user"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="ar">
+                            <a style="min-width: auto;" href="#">AR</a>
+                        </li>
+                        <li id="en">
+                            <a style="min-width: auto;" href="#">EN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="products"></div>
+            <div style="display: none;" class="no-products alert">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                There is no items in your list !!
+            </div>
+        </div>
+        <a class="create-product" href="./create.html">
+            <i class="fa-solid fa-plus"></i>
+        </a>
+    </section>
+    <script src="./js/user.js"></script>
+    <script src="./js/langdir.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/cartmenu.js"></script>
+    <script src="./js/userproducts.js"></script>
+</body>
+</html>

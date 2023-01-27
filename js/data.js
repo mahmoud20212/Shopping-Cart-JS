@@ -1,0 +1,38 @@
+let productsDB = [
+    {
+        id: 1,
+        title: 'PC',
+        price: '100',
+        imageUrl: 'images/setup.jpg',
+        quntity: 1,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam totam temporibus, laboriosam aperiam vero est.',
+        isMe: 'N',
+    },
+    {
+        id: 2,
+        title: 'Green Tea',
+        price: '80',
+        imageUrl: 'images/green-tea.jpeg',
+        quntity: 1,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam totam temporibus, laboriosam aperiam vero est.',
+        isMe: 'N',
+    },
+    {
+        id: 3,
+        title: 'Red Tea',
+        price: '50',
+        imageUrl: 'images/red-tea.jpeg',
+        quntity: 1,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam totam temporibus, laboriosam aperiam vero est.',
+        isMe: 'N',
+    },
+    {
+        id: 4,
+        title: 'Tea Powder',
+        price: '20',
+        imageUrl: 'images/tea-powder.jpeg',
+        quntity: 1,
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam totam temporibus, laboriosam aperiam vero est.',
+        isMe: 'N',
+    },
+];

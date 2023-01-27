@@ -1,0 +1,20 @@
+[dir="rtl"] .products-filter {
+    margin-left: 0;
+    margin-right: 10px;
+}
+[dir="rtl"] nav > ul#user-info .carts-products {
+    right: auto;
+    left: 0;
+}
+[dir="rtl"] nav > ul#user-info .carts-products::after {
+    right: auto;
+    left: 0;
+}
+[dir="rtl"] nav ul#user-info .settings.active ul {
+    right: auto;
+    left: 0;
+}
+[dir="rtl"] nav ul#user-info .settings ul::after {
+    right: auto;
+    left: 0;
+}

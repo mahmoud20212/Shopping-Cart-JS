@@ -1,0 +1,33 @@
+/* Start Form */
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.section-form h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #34495e;
+}
+.section-form form input {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.section-form form button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/* End Form */
